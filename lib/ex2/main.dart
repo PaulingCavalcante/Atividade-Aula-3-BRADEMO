@@ -1,7 +1,3 @@
-// EXERCÍCIO 2 - Barra de Botões no Rodapé: CALL, ROUTE, SHARE
-// Usa Row, Column, Icon, Text e Container para montar
-// os três botões ícone + rótulo em roxo fixados no rodapé.
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -22,16 +18,15 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.blueAccent,
         ),
 
-        // Corpo vazio — o conteúdo principal ficaria aqui
+    
         body: const SizedBox.expand(),
 
-        // Barra de botões fixada no rodapé
+        
         bottomNavigationBar: _buildButtonBar(),
       ),
     );
   }
 
-  /// Constrói a barra de três botões fixada no rodapé
   Widget _buildButtonBar() {
     return Container(
       decoration: const BoxDecoration(
@@ -51,7 +46,7 @@ class MyApp extends StatelessWidget {
     );
   }
 
-  /// Cria um botão com ícone acima e rótulo abaixo
+  
   Widget _buildIconButton({required IconData icon, required String label}) {
     const Color purpleColor = Color(0xFF6A4FA3); // roxo da imagem
 

@@ -46,9 +46,8 @@ class MyApp extends StatelessWidget {
     );
   }
 
-  
   Widget _buildIconButton({required IconData icon, required String label}) {
-    const Color purpleColor = Color(0xFF6A4FA3); // roxo da imagem
+    const Color purpleColor = Color(0xFF6A4FA3); 
 
     return Column(
       mainAxisSize: MainAxisSize.min,
